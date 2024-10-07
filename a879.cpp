@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
     int total=0,times,insidetimes,range1;
-    int duckX[1001],duckY[1001],centerX,centerY;
+    int duckX[10000],duckY[10000],centerX,centerY;
     cin>>times;
     for(int i=0;i<times;i++){
         cin>>insidetimes>>range1;
